@@ -4,11 +4,17 @@
     "module": "CommonJS",
     "target": "es2018",
     "esModuleInterop": true,
-    "lib": ["esnext"],
+    "lib": [
+      "esnext"
+    ],
     "outDir": "../dist",
     "sourceMap": true,
     "declaration": true
   },
-  "include": ["**/*.ts"],
-  "exclude": ["node_modules"]
+  "include": [
+    "**/*.{ts,tsx,js,jsx,sh}"
+  ],
+  "exclude": [
+    "node_modules"
+  ]
 }
